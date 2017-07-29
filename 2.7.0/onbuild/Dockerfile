@@ -1,4 +1,4 @@
-FROM jython:2.7.0
+FROM lordgaav/jython:2.7.0
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
